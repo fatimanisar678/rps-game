@@ -9,15 +9,15 @@
 <body>
    <h1>Rock Paper Scissor</h1>
    <button   class="button" onclick="
-     playgame('Rock');
+     playgame('rock');
    "
    
    ><img class="image" src="images/rock-emoji.png" alt="" width="50px"></button>
   
-   <button class="button"   onclick=" playgame('Paper');"
+   <button class="button"   onclick=" playgame('paper');"
     ><img class="image" src="images/paper-emoji.png" alt="" width="50px"></button>
 
-   <button class="button"  onclick="playgame('Scissor');"
+   <button class="button"  onclick="playgame('scissor');"
    ><img class="image"  src="images/scissor-emoji.png" alt="" width="50px"></button>
 
    <p class="js-result result"></p>
@@ -58,57 +58,57 @@
         
         if(randomno>0 && randomno<=1/3)
         {
-         Computermove='Rock';
+         Computermove='rock';
         }
         else if(randomno>1/3 && randomno<=2/3)
         {
-          Computermove='Paper';
+          Computermove='paper';
         }
         else
         {
-           Computermove='Scissor';
+           Computermove='scissor';
         }
        let result='';
-        if(Computermove==='Rock' && guess==='Rock')
+        if(Computermove==='rock' && guess==='rock')
         {
            result='Tie';
            score.tie++;
-        }else if(Computermove==='Paper' && guess==='Rock')
+        }else if(Computermove==='paper' && guess==='rock')
         {
           result ='Lose';
           score.lose++;
         }
-        else if(Computermove==='Scissor' && guess==='Rock')
+        else if(Computermove==='scissor' && guess==='rock')
         {
           result ='Win';
           score.win++;
         }
-       else if(Computermove==='Rock' && guess==='Paper')
+       else if(Computermove==='rock' && guess==='paper')
         {
            result='Win';
            score.win++;
 
-        }else if(Computermove==='Paper' && guess==='Paper')
+        }else if(Computermove==='paper' && guess==='paper')
         {
           result ='Tie';
           score.tie++;
         }
-        else if(Computermove==='Scissor' && guess==='Paper')
+        else if(Computermove==='scissor' && guess==='paper')
         {
           result ='Lose';
           score.lose++;
         }
 
-        else if(Computermove==='Rock' && guess==='Scissor')
+        else if(Computermove==='rock' && guess==='scissor')
         {
            result='Lose';
            score.lose++;
-        }else if(Computermove==='Paper' && guess==='Scissor')
+        }else if(Computermove==='paper' && guess==='scissor')
         {
           result ='Win';
           score.win++;
         }
-        else if(Computermove==='Scissor' && guess==='Scissor')
+        else if(Computermove==='scissor' && guess==='scissor')
         {
           result ='Tie';
           score.tie++;
@@ -121,11 +121,9 @@
 
       document.querySelector('.js-moves')
       .innerHTML=`You 
-     <img src="images/${guess.toLowerCase()}-emoji.png width="50px">
-
+      <img src="images/${guess}-emoji.png" class="move-icon" width="50px">
       
-      <img src="images/${Computermove.toLowerCase()}-emoji.png" width="50px">
-
+      <img src="images/${Computermove}-emoji.png" class="move-icon" width="50px">
       Computer
       
       `;
