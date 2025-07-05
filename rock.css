@@ -1,0 +1,44 @@
+.image
+{
+    /* border-radius: 50%; */
+    background-color: black;
+    
+    
+}
+body{
+    background-color: grey;
+}
+.button
+{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background-color: black;
+     border: none;
+     cursor: pointer;     
+
+}
+.reset
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.result
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(22, 21, 21);
+}
+.score
+{
+    margin-top: 22px;
+    font-size: 18px;
+}
