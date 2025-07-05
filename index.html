@@ -121,9 +121,11 @@
 
       document.querySelector('.js-moves')
       .innerHTML=`You 
-      <img src="images/${guess}-emoji.png" class="move-icon" width="50px">
+     <img src="images/${guess.toLowerCase()}-emoji.png width="50px">
+
       
-      <img src="images/${Computermove}-emoji.png" class="move-icon" width="50px">
+      <img src="images/${Computermove.toLowerCase()}-emoji.png" width="50px">
+
       Computer
       
       `;
