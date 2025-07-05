@@ -11,7 +11,7 @@ A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScr
 - 🔁 Reset button to clear the score
 
 ## 💡 Technologies Used
-
+-
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
