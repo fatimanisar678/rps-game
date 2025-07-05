@@ -17,6 +17,12 @@ A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScr
 - JavaScript (Vanilla)
 - Browser `localStorage`
 
+## 🚀 Live Preview
+
+👉 [Click here to play the game](https://fatimanisar678.github.io/rps-game/)
+
+---
+
 ## 🚀 How to Play
 
 1. Click Rock, Paper, or Scissors.
@@ -25,8 +31,19 @@ A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScr
 4. Click "Reset Score" to start over.
 
 ## 📂 Project Structure
-  ├── rock.html
-  ├── rock.css
+  rps-game/
+├── index.html
+├── rock.css
+└── images/
+    ├── rock-emoji.png
+    ├── paper-emoji.png
+    └── scissor-emoji.png
+
+---
+
+
+
+
   
   
 
