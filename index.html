@@ -12,13 +12,13 @@
      playgame('Rock');
    "
    
-   ><img class="image" src="rock-emoji.png" alt="" width="50px"></button>
+   ><img class="image" src="images/rock-emoji.png" alt="" width="50px"></button>
   
    <button class="button"   onclick=" playgame('Paper');"
-    ><img class="image" src="paper-emoji.png" alt="" width="50px"></button>
+    ><img class="image" src="images/paper-emoji.png" alt="" width="50px"></button>
 
    <button class="button"  onclick="playgame('Scissor');"
-   ><img class="image"  src="scissor-emoji.png" alt="" width="50px"></button>
+   ><img class="image"  src="images/scissor-emoji.png" alt="" width="50px"></button>
 
    <p class="js-result result"></p>
    <p class="js-moves">
@@ -121,9 +121,9 @@
 
       document.querySelector('.js-moves')
       .innerHTML=`You 
-      <img src="${guess}-emoji.png" class="move-icon" width="50px">
+      <img src="images/${guess}-emoji.png" class="move-icon" width="50px">
       
-      <img src="${Computermove}-emoji.png" class="move-icon" width="50px">
+      <img src="images${Computermove}-emoji.png" class="move-icon" width="50px">
       Computer
       
       `;
